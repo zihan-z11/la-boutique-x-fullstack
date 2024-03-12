@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: black;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.nav-profile {
+    margin-right: -20px;
+    width: 65px;
+    border: 10px solid black;
+    border-radius: 50%;
+    filter: saturate(30%);
+    height: auto;
+}
+
+@media(max-width:800px){
+    .navbar {
+        padding: 15px 30px;
+    }
+    .nav-logo {
+        font-size: 25px;
+    }
+    .nav-profile {
+        width: 50px;
+    }
+}

@@ -1,0 +1,28 @@
+.hero {
+    background: white;
+    display: flex;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.hero img {
+    width: 100%;
+    position: relative;
+    top: 80px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+@media(max-width:500px) {
+    .hero {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:1024px) {
+    .hero {
+        margin-bottom: 100px;
+    }
+}
